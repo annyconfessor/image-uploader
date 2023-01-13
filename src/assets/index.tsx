@@ -1,0 +1,1 @@
+export { default as mountains } from './../assets/montains.svg'
