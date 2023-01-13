@@ -17,4 +17,5 @@ export const BoxImage = styled.div`
 
 export const Text = styled.div`
   color: #BDBDBD;
+  margin-top: 38px;
 `
