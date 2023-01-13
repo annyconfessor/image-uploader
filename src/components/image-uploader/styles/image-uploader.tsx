@@ -9,6 +9,7 @@ export const BoxImage = styled.div`
   height: 218.9px;
   background-color: #F6F8FB;
   border: 1px;
+  border-radius: 12px;
   border-style: dashed;
   border-color: #97BEF4;
   /* background-color: red; */

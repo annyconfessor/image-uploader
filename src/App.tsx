@@ -1,8 +1,12 @@
-import ImageUploader from "./components/image-uploader";
+import Card from "./components/card";
+
+import { Background } from './styledApp'
 
 function App() {
   return (
-    <ImageUploader />
+    <Background>
+      <Card />
+    </Background>
   );
 }
 

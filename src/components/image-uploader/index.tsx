@@ -1,4 +1,3 @@
-import React from 'react'
 import { BoxImage, Text } from './styles/image-uploader'
 import { mountains } from '../../assets'
 
