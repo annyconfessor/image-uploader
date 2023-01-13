@@ -1,18 +1,15 @@
-import Button from '../button'
-import ImageUploader from '../image-uploader'
+import { ReactElement } from 'react'
 
-import { StyledCard, Wrapper, Text, Header, P } from './styles'
+import { StyledCard } from './styles'
 
-const Card = () => {
+type CardProps = {
+  children: ReactElement
+}
+
+const Card = ({ children }: CardProps) => {
   return (
     <StyledCard>
-      <Header>Upload your image</Header>
-      <P>File should be Jpeg, Png...</P>
-      <ImageUploader/>
-      <Text>Or</Text>
-      <Wrapper>
-        <Button/>
-      </Wrapper>
+      {children}
     </StyledCard>
   )
 }
