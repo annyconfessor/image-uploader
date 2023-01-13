@@ -1,10 +1,14 @@
 import { BoxImage, Text } from './styles/image-uploader'
-import { mountains } from '../../assets'
+import images from '../../assets'
 
-const ImageUploader = () => {
+type ImageUploaderProps = {
+  name: keyof typeof images
+}
+
+const ImageUploader = ({name}: ImageUploaderProps) => {
   return (
     <BoxImage>
-      <img src={mountains} alt="montains"/> 
+      <img src={images[name]} alt="montains"/> 
       <Text>Drag and drop your image here</Text>
     </BoxImage>
   )

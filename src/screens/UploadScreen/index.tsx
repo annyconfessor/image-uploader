@@ -9,10 +9,10 @@ const Upload = () => {
       <>
         <Header>Upload your image</Header>
         <P>File should be Jpeg, Png...</P>
-        <ImageUploader/>
+        <ImageUploader name="mountains"/>
         <Text>Or</Text>
         <Wrapper>
-          <Button/>
+          <Button text="Choose a file"/>
         </Wrapper>
       </>
     </Card>

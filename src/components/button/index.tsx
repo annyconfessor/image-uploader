@@ -1,8 +1,12 @@
 import { StyledButton } from "./styles"
 
-const Button = () => {
+type TextProps = {
+  text: string;
+}
+
+const Button = ({text}: TextProps) => {
   return (
-    <StyledButton>Choose a file</StyledButton>
+    <StyledButton>{text}</StyledButton>
   )
 }
 

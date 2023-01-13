@@ -2,12 +2,12 @@ import images from '../../assets'
 
 import { Figure } from './styles'
 
-type ImageProps = {
+type IconProps = {
   name: keyof typeof images
   altname: string
 }
 
-const Image = ({name, altname}: ImageProps) => {
+const Icon = ({name, altname}: IconProps) => {
   return (
     <Figure>
       <img src={images[name]} alt={altname}/>
@@ -15,4 +15,4 @@ const Image = ({name, altname}: ImageProps) => {
   )
 }
 
-export default Image
+export default Icon
