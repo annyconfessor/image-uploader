@@ -1,4 +1,8 @@
-import styled from 'styled-components'
+import styled, { css } from 'styled-components'
+
+type GrouthBarProps = {
+  width: number;
+}
 
 export const StyledProgressBar = styled.div`
   background-color: #F2F2F2;
@@ -8,11 +12,13 @@ export const StyledProgressBar = styled.div`
 `
 
 export const GrouthBar = styled.div`
-  border-radius: 8px;
-  width: 100px;
-  height: 6px;
-  background-color: #2F80ED;
-  margin-top: -6px;
+  ${({ width }: GrouthBarProps) => css`
+    border-radius: 8px;
+    width: ${width}px; // mudar aqui
+    height: 6px;
+    background-color: #2F80ED;
+    margin-top: -6px;
+  `}
 `
 
 export const Wrapper = styled.div`

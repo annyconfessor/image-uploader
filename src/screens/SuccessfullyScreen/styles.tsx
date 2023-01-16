@@ -3,7 +3,7 @@ import styled from 'styled-components'
 export const Text = styled.div`
   font-size: 18px;
   color: #4F4F4F;
-  font-weight: 500;
+  font-weight: 600;
 `
 
 export const Wrapper = styled.div`
