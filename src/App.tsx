@@ -7,9 +7,9 @@ import { Background } from './styledApp'
 function App() {
   return (
     <Background>
-      {/* <UploadScreen/> */}
+      <UploadScreen/>
       <ProgressScreen/>
-      {/* <SuccessfullyScreen/> */}
+      <SuccessfullyScreen/>
     </Background>
   );
 }

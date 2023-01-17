@@ -1,12 +1,13 @@
 import { StyledButton } from "./styles"
 
 type TextProps = {
-  text: string;
+  children: string;
+  id?: string;
 }
 
-const Button = ({text}: TextProps) => {
+const Button = ({children, id}: TextProps) => {
   return (
-    <StyledButton>{text}</StyledButton>
+    <StyledButton id={id}>{children}</StyledButton>
   )
 }
 

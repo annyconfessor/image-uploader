@@ -10,9 +10,8 @@ export const StyledUploadingCard = styled.div`
 `
 
 export const Text = styled.h1`
+  font-family: 'Poppins';
   font-size: 18px;
-  font-weight: bold;
-  line-height: 27px;
   letter-spacing: -0.035em;
   color: #4F4F4F;
 `

@@ -7,7 +7,7 @@ const TextBox = () => {
       <Wrapper>
         <StyledTextBox/>
         <Box>
-          <Button text="Copy Link"/>
+          <Button id='copy-link'>Copy Link</Button>
         </Box>
       </Wrapper>
     </>

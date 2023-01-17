@@ -16,6 +16,8 @@ export const BoxImage = styled.div`
 `
 
 export const Text = styled.div`
+  font-family: 'Poppins-light';
+  font-size: 12px;
   color: #BDBDBD;
   margin-top: 38px;
 `

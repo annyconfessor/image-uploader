@@ -12,13 +12,31 @@ export const Text = styled.p`
 `
 
 export const Header = styled.h1`
-  font-size: 22px;
-  font-weight: 600;
+  font-family: 'Poppins';
+  font-size: 20px;
+  line-height: 27px;
+  letter-spacing: -0.035em;
   color: #4F4F4F;
 `
 
 export const P = styled.p`
-  margin-top: 16px;
+  font-family: 'Poppins-light';
+  line-height: 15px;
+  margin-top: 10px;
   margin-bottom: 30px;
   color: #828282;
+`
+
+export const Input = styled.input`
+  display: none;
+`
+
+export const Label = styled.label`
+  background-color: #2F80ED;
+  border-radius: 8px;
+  border: none;
+  width: 101px;
+  height: 35px;
+  color: #FFFFFF;
+  cursor: pointer;
 `
