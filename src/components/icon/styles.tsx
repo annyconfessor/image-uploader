@@ -4,7 +4,7 @@ export const Figure = styled.figure`
   display: flex;
   align-items: center;
   justify-content: center;
-  width: 40px;
+  width: 2.5rem;
 
   img {
     width: 100%;

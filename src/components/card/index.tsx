@@ -8,7 +8,7 @@ type CardProps = {
 
 const Card = ({ children }: CardProps) => {
   return (
-    <StyledCard>
+    <StyledCard className='card-container'>
       {children}
     </StyledCard>
   )

@@ -2,8 +2,8 @@ import styled from 'styled-components'
 
 export const StyledUploadingCard = styled.div`
   background-color: #FFFFFF;
-  width: 400px;
-  height: 144px;
+  width: 25rem;
+  height: 9rem;
   background: #FFFFFF;
   box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.1);
   border-radius: 12px;
@@ -17,6 +17,6 @@ export const Text = styled.h1`
 `
 
 export const Wrapper = styled.div`
-  margin-left: 32px;
+  margin-left: 28px;
   margin-top: 30px;
 `

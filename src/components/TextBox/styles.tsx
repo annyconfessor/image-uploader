@@ -4,7 +4,7 @@ export const StyledTextBox = styled.input`
   background-color: #F6F8FB;
   border-radius: 8px;
   border: none;
-  width: 338px;
+  width: 22rem;
   height: 34px;
   color: #4F4F4F;
   font-size: 13px;
@@ -17,5 +17,5 @@ export const Wrapper = styled.div`
 `
 
 export const Box = styled.div`
-  margin-left: -100px;
+  margin-left: -6.25rem;
 `

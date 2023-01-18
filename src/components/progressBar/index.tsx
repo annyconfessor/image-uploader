@@ -4,7 +4,7 @@ const ProgressBar = () => {
   return(
     <Wrapper>
       <StyledProgressBar className='progress-bar'/>
-      <GrouthBar className='grouth-bar' width={30}/>
+      <GrouthBar className='grouth-bar' width={50}/>
     </Wrapper>
   )
 }

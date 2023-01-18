@@ -9,7 +9,19 @@ const UploadContainer = styled.div`
   display: flex;
   align-items: center;
   justify-content: space-around;
-  width: 1000px;
+  width: 100rem;
+
+  @media screen and (min-width: 768px) and (max-width: 1023px) {
+    display: flex;
+    flex-direction: column;
+    height: 56rem;
+  }
+
+  @media screen and (max-width: 767px) {
+    display: flex;
+    flex-direction: column;
+    height: 45rem;
+  }
 `
 
 function App() {
@@ -22,7 +34,7 @@ function App() {
             <ProgressScreen/>
           </UploadContainer>
         </>}/>
-        <Route path="/successfull" element={<SuccessfullyScreen />}/>
+        <Route path="/success" element={<SuccessfullyScreen />}/>
       </Routes>
     </Router>
   );

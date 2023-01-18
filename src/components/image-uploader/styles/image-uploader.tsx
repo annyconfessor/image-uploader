@@ -5,14 +5,18 @@ export const BoxImage = styled.div`
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  width: 338px;
-  height: 218.9px;
+  width: 22rem;
+  height: 14rem;
   background-color: #F6F8FB;
   border: 1px;
   border-radius: 12px;
   border-style: dashed;
   border-color: #97BEF4;
-  /* background-color: red; */
+
+  /* @media screen and (max-width: 767px) {
+    width: 17rem;
+    height: 12rem;
+  } */
 `
 
 export const Text = styled.div`
